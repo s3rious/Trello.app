@@ -22,6 +22,14 @@
     [[webview mainFrame] loadRequest:requestObj];
 }
 
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag
+{
+    if (!flag) {
+        [self.window makeKeyAndOrderFront:self];
+        return YES;
+    }
+    return NO;
+}
 
 
 @end
