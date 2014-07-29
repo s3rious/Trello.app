@@ -32,7 +32,7 @@ decidePolicyForNavigationAction:(NSDictionary *)actionInformation
 decisionListener:(id < WebPolicyDecisionListener >)listener
 {
     NSString *host = [[request URL] host];
-    if ([host isNotEqualTo:@"www.trello.com"] && [host isNotEqualTo:@"trello.com"]) {
+    if ([host isNotEqualTo:@"www.trello.com"] && [host isNotEqualTo:@"trello.com"] && [host isNotEqualTo:@"accounts.google.com"]) {
         [[NSWorkspace sharedWorkspace] openURL:[request URL]];
     } else {
         [listener use];
