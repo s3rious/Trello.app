@@ -13,17 +13,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: WAYWindow!
     @IBOutlet weak var webview: WebView!
-
-
-//    func NSColorFromRGB(rgbValue: UInt) -> NSColor {
-//        return NSColor(
-//            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
-//            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
-//            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-//            alpha: CGFloat(1.0)
-//        )
-//    }
-    
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
 
@@ -37,12 +26,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             defs.setBool(true, forKey: "WebKitDeveloperExtras")
             defs.synchronize()
         #endif
-        
-//        let bgColor = NSColorFromRGB(0x026AA7)
-        
-//        self.window.backgroundColor = bgColor
-//        webview.setValue(false, forKey: "opaque")
-//        webview.setValue(bgColor, forKey: "backgroundColor")
         
         let resourcesPath = NSBundle.mainBundle().resourcePath!
         let jsPath = resourcesPath.stringByAppendingString("/Trello.js")

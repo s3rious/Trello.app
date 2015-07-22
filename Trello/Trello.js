@@ -25,6 +25,7 @@ div.board-widgets-container { margin-top: 40px; top: 0; right: 0; bottom: 0; lef
 div.board-widgets-content-wrapper { padding-left: 8px; padding-top: 8px; width: 278px }\
 .board-widgets-content { width: 255px; margin-right: 0 }\
 .board-widgets-title.in-frame { margin-top: 8px }\
+.board-menu-header.js-board-menu-title.is-in-frame { margin-top: 40px }\
 @media only screen and (max-width: 750px) {\
   a.header-logo.js-home-via-logo { position: absolute; left: 69px; margin-left: 0;\
     width: 30px; overflow: hidden; display: inline-block; font-family: trellicons;\

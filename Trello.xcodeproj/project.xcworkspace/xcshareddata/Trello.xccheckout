@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19AEFF7D-6BE2-49A9-9A3F-50B934A06C67</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>263CEA8396F113E0F4C6580819E9D7A9A7A5A5B4</key>
+		<string>github.com:s3rious/Trello.app.git</string>
+		<key>C1421C99D055D3A535089DA2BBEC5EFC9A0200F0</key>
+		<string>github.com:weAreYeah/WAYWindow.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Trello.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>263CEA8396F113E0F4C6580819E9D7A9A7A5A5B4</key>
+		<string>../..</string>
+		<key>C1421C99D055D3A535089DA2BBEC5EFC9A0200F0</key>
+		<string>../..Libs/WAYWindow</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:s3rious/Trello.app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>263CEA8396F113E0F4C6580819E9D7A9A7A5A5B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>263CEA8396F113E0F4C6580819E9D7A9A7A5A5B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TrelloApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1421C99D055D3A535089DA2BBEC5EFC9A0200F0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WAYWindow</string>
+		</dict>
+	</array>
+</dict>
+</plist>
