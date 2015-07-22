@@ -8,4 +8,4 @@ Just a WebView OSX app for Trello, now with Yosemite flawour.
 Gonna define it later
 
 ## Binary
-10.10+. [Download](http://cl.ly/363y352T2S0i?_ga=1.204892624.1102999381.1390047895)
+10.10+. [Download](http://cl.ly/3x1v0m2D2T3B)
